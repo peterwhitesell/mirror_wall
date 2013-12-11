@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- http://mirrorwall.s3-website-us-east-1.amazonaws.com/ -->
+<html>
+<head>
+	<title>Mirror Arrangement</title>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.knob.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+	<script type="text/javascript" src="js/setup.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<div id="wall-holder">
+				<canvas id="wall"></canvas>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<form id="config">
+				<button type="submit" class="sr-only btn btn-default btn-small">Update</button>
+			</form>
+			<div id="defaults"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

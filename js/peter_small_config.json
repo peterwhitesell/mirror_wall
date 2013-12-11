@@ -1,0 +1,57 @@
+{
+	"name": "Peter's Small Wall",
+	"defaults": [
+		{
+			"field_name": "wall-width",
+			"field_value": "119"
+		},
+		{
+			"field_name": "wall-height",
+			"field_value": "96"
+		},
+		{
+			"field_name": "silhouette-height",
+			"field_value": "74"
+		},
+		{
+			"field_name": "wall-origin-corner",
+			"field_value": "bottom_left"
+		},
+		{
+			"field_name": "mirror-width",
+			"field_value": "14"
+		},
+		{
+			"field_name": "mirror-height",
+			"field_value": "50"
+		},
+		{
+			"field_name": "mirror-count",
+			"field_value": "3"
+		},
+		{
+			"field_name": "mirror-spacing",
+			"field_value": "5"
+		},
+		{
+			"field_name": "mirror-tilt",
+			"field_value": "30"
+		},
+		{
+			"field_name": "mirror-top",
+			"field_value": "12"
+		},
+		{
+			"field_name": "mirror-left",
+			"field_value": "19"
+		}
+	],
+	"obstacles": [
+		{
+			"left": "59",
+			"top": "82",
+			"width": "3",
+			"height": "4.5"
+		}
+	]
+}

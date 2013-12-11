@@ -1,0 +1,128 @@
+{
+	"sections": [
+		{
+			"name": "Wall",
+			"fields": [
+				{
+					"field_name": "wall-width",
+					"display_name": "Width",
+					"default": "144",
+					"units": "in",
+					"ui": {
+						"type": ""
+					}
+				},
+				{
+					"field_name": "wall-height",
+					"display_name": "Height",
+					"default": "96",
+					"units": "in",
+					"ui": {
+						"type": ""
+					}
+				},
+				{
+					"field_name": "silhouette-height",
+					"display_name": "Man's Height",
+					"default": "69",
+					"units": "in",
+					"ui": {
+						"type": ""
+					}
+				},
+				{
+					"field_name": "wall-origin-corner",
+					"display_name": "Origin Corner",
+					"default": "top_left",
+					"units": "",
+					"ui": {
+						"type": "radio",
+						"options": {
+							"top_left": "Top Left",
+							"top_right": "Top Right",
+							"bottom_right": "Bottom Right",
+							"bottom_left": "Bottom Left"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Mirrors",
+			"fields":[
+				{
+					"field_name": "mirror-width",
+					"display_name": "Width",
+					"default": "14",
+					"units": "in",
+					"ui": {
+						"type": ""
+					}
+				},
+				{
+					"field_name": "mirror-height",
+					"display_name": "Height",
+					"default": "50",
+					"units": "in",
+					"ui": {
+						"type": ""
+					}
+				},
+				{
+					"field_name": "mirror-count",
+					"display_name": "Count",
+					"default": "6",
+					"units": "",
+					"ui": {
+						"type": ""
+					}
+				},
+				{
+					"field_name": "mirror-tilt",
+					"display_name": "Tilt",
+					"default": "30",
+					"units": "deg",
+					"ui": {
+						"type": "knob",
+						"min": "-90",
+						"max": "90"
+					}
+				},
+				{
+					"field_name": "mirror-spacing",
+					"display_name": "Spacing",
+					"default": "1",
+					"units": "in",
+					"ui": {
+						"type": ""
+					}
+				},
+				{
+					"field_name": "mirror-top",
+					"display_name": "Top Offset",
+					"default": "9",
+					"units": "in",
+					"ui": {
+						"type": ""
+					}
+				},
+				{
+					"field_name": "mirror-left",
+					"display_name": "Left Offset",
+					"default": "9",
+					"units": "in",
+					"ui": {
+						"type": ""
+					}
+				}
+			]
+		}
+	],
+	"buttons": [
+		{
+			"name": "Toggle Coordinates",
+			"id": "coordinate-toggler",
+			"action": "toggle_coordinates"
+		}
+	]
+}
