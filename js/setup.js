@@ -317,6 +317,7 @@ $(document).ready(function(){
 
 		wall.attr('width', resolution * get('wall-width'));
 		wall.attr('height', resolution * get('wall-height'));
+		$('canvas').show();
 
 		update_mirrors();
 		update_obstacles();
